@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationBarBackgroundColor": "#0083ff",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "wd-img": "/wot-design/img/index",
+    "wd-cell": "/wot-design/cell/index",
+    "wd-cell-group": "/wot-design/cellGroup/index"
+  }
+}

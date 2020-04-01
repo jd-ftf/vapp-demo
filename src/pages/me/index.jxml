@@ -1,0 +1,19 @@
+<view>
+  <view class="avatar-container">
+    <wd-img jd:if="{{userInfo}}" custom-image="avatar" width="100" height="100" src="{{userInfo.avatarUrl}}" mode="fill" round />
+    <view jd:if="{{userInfo}}" class="username">{{userInfo.nickName}}</view>
+    <button jd:else open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">登录</button>
+  </view>
+  <wd-cell-group custom-class="cell">
+    <wd-cell title="订单" icon="cart" is-link />
+    <wd-cell title="浏览历史" icon="history" is-link />
+    <wd-cell title="收藏" icon="collect" is-link />
+  </wd-cell-group>
+  <wd-cell-group custom-class="cell">
+    <wd-cell title="消息通知" icon="bell" is-link />
+    <wd-cell title="客服" icon="service" is-link />
+  </wd-cell-group>
+  <wd-cell-group custom-class="cell">
+    <wd-cell title="关于" icon="warning" is-link />
+  </wd-cell-group>
+</view>

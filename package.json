@@ -1,0 +1,62 @@
+{
+  "name": "vapp-demo",
+  "version": "1.0.0",
+  "description": "vapp demo",
+  "scripts": {
+    "dev": "node build/mockServer.js & cross-env NODE_ENV=development PLATFORM=jd gulp dev --gulpfile build/gulpfile.js",
+    "dev:wx": "node build/mockServer.js & cross-env NODE_ENV=development PLATFORM=wx gulp devwx --gulpfile build/gulpfile.js",
+    "build": "cross-env PLATFORM=jd gulp build --gulpfile build/gulpfile.js",
+    "build:wx": "cross-env PLATFORM=wx gulp buildwx --gulpfile build/gulpfile.js"
+  },
+  "keywords": [
+    "jd",
+    "vapp",
+    "wechat"
+  ],
+  "files": [
+    "build"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@ftf/gulp-vapp-transform": "^1.0.1",
+    "autoprefixer": "^9.7.1",
+    "chalk": "^3.0.0",
+    "cross-env": "^6.0.3",
+    "del": "^5.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-formatter-friendly": "^7.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-base64": "^0.1.3",
+    "gulp-cli": "^2.2.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-eslint": "^6.0.0",
+    "gulp-filter": "^6.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-preprocess": "^3.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.3",
+    "mockjs": "^1.1.0",
+    "node-sass": "^4.13.0",
+    "plugin-error": "^1.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-url": "^8.0.0",
+    "readable-stream": "^3.4.0",
+    "rimraf": "^3.0.0",
+    "through2": "^3.0.1"
+  }
+}

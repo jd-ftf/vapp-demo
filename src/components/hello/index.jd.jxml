@@ -1,0 +1,3 @@
+<view class="demo-block" style="{{ style }}" jd:if="{{ true }}">
+  京东：{{ message }}
+</view>

@@ -1,0 +1,20 @@
+<!--首页 index.jxml-->
+<view class="page">
+	<wd-notice-bar
+		text="移动端组件库京麦 Wot Design 发布，带来统一的商家侧体验和提供开发效率"
+		left-icon="bell"
+		closable
+	/>
+	<view class="swiper-container">
+		<swiper indicator-dots autoplay indicator-active-color="#0083ff" circular>
+			<swiper-item jd:for="{{swiper}}">
+				<view class="swiper-img-container">
+					<image src="{{item}}" class="swiper-img" mode="cover"></image>
+				</view>
+			</swiper-item>
+		</swiper>
+	</view>
+	<wd-grid column="4" custom-class="grid">
+		<wd-grid-item jd:for="{{grid}}" link-type="navigateTo" url="{{item.page}}" icon="{{item.icon}}" text="{{item.text}}" />
+	</wd-grid>
+</view>

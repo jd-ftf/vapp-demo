@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "Vapp Demo",
+  "usingComponents": {
+    "wd-img": "/wot-design/img/index",
+    "wd-grid": "/wot-design/grid/index",
+    "wd-grid-item": "/wot-design/gridItem/index",
+    "wd-button": "/wot-design/button/index",
+    "wd-notice-bar": "/wot-design/noticeBar/index"
+  }
+}

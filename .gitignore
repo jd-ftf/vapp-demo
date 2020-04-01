@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+/example-wx/
+/lib-wx/
+/lib-jd/
+/dist-wx/
+/dist-jd/
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+npm-debug.log

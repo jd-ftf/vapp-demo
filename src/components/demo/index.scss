@@ -1,0 +1,9 @@
+$-color: green;
+.demo-block {
+  width: 100%;
+  padding: 15px;
+  color: $-color;
+  overflow: hidden;
+  border: 1px solid $-color;
+  box-sizing: border-box;
+}

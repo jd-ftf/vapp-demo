@@ -1,0 +1,11 @@
+<view
+  class="wd-tab custom-class"
+  style="{{ width ? 'width:' + width + 'px;' : '' }}"
+>
+  <view
+    jd:if="{{painted}}"
+    class="wd-tab__body"
+  >
+    <slot/>
+  </view>
+</view>

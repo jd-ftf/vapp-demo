@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/index",
+    "pages/search/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Wot Design Mini",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#0083ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./assets/img/home.png",
+        "selectedIconPath": "./assets/img/home-active.png"
+      }, {
+        "pagePath": "pages/me/index",
+        "text": "个人中心",
+        "iconPath": "./assets/img/me.png",
+        "selectedIconPath": "./assets/img/me-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

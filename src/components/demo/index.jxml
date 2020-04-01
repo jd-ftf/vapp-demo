@@ -1,0 +1,6 @@
+<view class="demo-block" style="{{ style }}" jd:if="{{ true }}">
+  <slot></slot>
+  :
+  京东小程序和{{message}}更配哦~
+  <button bindtap="click" style="{{ style }}">click</button>
+</view>
