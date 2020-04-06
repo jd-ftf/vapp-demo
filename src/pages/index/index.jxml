@@ -14,7 +14,7 @@
 			</swiper-item>
 		</swiper>
 	</view>
-	<wd-grid column="4" custom-class="grid">
+	<wd-grid column="4" clickable custom-class="grid">
 		<wd-grid-item jd:for="{{grid}}" link-type="navigateTo" url="{{item.page}}" icon="{{item.icon}}" text="{{item.text}}" />
 	</wd-grid>
 </view>

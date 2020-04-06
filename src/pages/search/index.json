@@ -1,6 +1,10 @@
 {
   "navigationBarTitleText": "搜索",
   "usingComponents": {
-    
+    "wd-search": "/wot-design/search/index",
+    "wd-loadmore": "/wot-design/loadmore/index",
+    "wd-drop-menu": "/wot-design/dropMenu/index",
+    "wd-drop-menu-item": "/wot-design/dropMenuItem/index",
+    "wd-img": "/wot-design/img/index"
   }
 }

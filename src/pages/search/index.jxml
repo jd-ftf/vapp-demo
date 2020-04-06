@@ -1,3 +1,14 @@
 <view>
-  1
+  <wd-search value="{{ searchText }}" bind:search="inputSearch" />
+  <wd-drop-menu>
+    <wd-drop-menu-item value="{{ productionType }}" options="{{ productionTypeOption }}" bindchange="chooseProductionType"/>
+    <wd-drop-menu-item value="{{ productionMsgType }}" options="{{ productionMsgTypeOption }}" bindchange="chooseProductionMsgType"/>
+  </wd-drop-menu>
+  <view class="list">
+    <view class="item" jd:for="{{list}}" bind:tap="gotoItem" data-id="{{item.id}}">
+      <wd-img width="60" height="60" src="{{item.img}}" round custom-class="item-img" />
+      <view class="desc">{{item.name}}</view>
+    </view>
+    <wd-loadmore custom-class="loadmore" state="{{loadmoreState}}"/>
+  </view>
 </view>

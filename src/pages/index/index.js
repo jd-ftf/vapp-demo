@@ -10,35 +10,35 @@ Page({
     ],
     grid: [
       {
-        page: '/pages/search/index?type=1',
+        page: '/pages/search/index?value=1',
         icon: 'picture',
         text: '类型1'
       }, {
-        page: '/pages/search/index?type=2',
+        page: '/pages/search/index?value=2',
         icon: 'picture',
         text: '类型2'
       }, {
-        page: '/pages/search/index?type=3',
+        page: '/pages/search/index?value=3',
         icon: 'picture',
         text: '类型3'
       }, {
-        page: '/pages/search/index?type=4',
+        page: '/pages/search/index?value=4',
         icon: 'picture',
         text: '类型4'
       }, {
-        page: '/pages/search/index?type=5',
+        page: '/pages/search/index?value=5',
         icon: 'picture',
         text: '类型5'
       }, {
-        page: '/pages/search/index?type=6',
+        page: '/pages/search/index?value=6',
         icon: 'picture',
         text: '类型6'
       }, {
-        page: '/pages/search/index?type=7',
+        page: '/pages/search/index?value=7',
         icon: 'picture',
         text: '类型7'
       }, {
-        page: '/pages/search/index?type=8',
+        page: '/pages/search/index?value=8',
         icon: 'picture',
         text: '类型8'
       }
@@ -46,7 +46,7 @@ Page({
   },
   onLoad () {
     request({
-      url: '/apis/index.action',
+      url: '/api/index.action',
       success ({ data }) {
         console.log(data)
       }
