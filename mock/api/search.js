@@ -8,7 +8,7 @@ module.exports = query => {
   for (let i = 0, len = pageNo == 2 ? 4: pageSize; i < len; i++) {
     list.push({
       id: pageSize * pageNo + i,
-      name: `${text}商品${pageSize * pageNo + i + 1}`,
+      name: `${text}订单${pageSize * pageNo + i + 1}`,
       img: 'https://passport.jd.com/new/misc/skin/df/i/no-img_mid_.jpg'
     })
   }

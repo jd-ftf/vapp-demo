@@ -1,6 +1,9 @@
 {
   "navigationBarTitleText": "详情",
   "usingComponents": {
-    
+    "wd-cell": "/wot-design/cell/index",
+    "wd-cell-group": "/wot-design/cellGroup/index",
+    "wd-button": "/wot-design/button/index",
+    "wd-message-box": "/wot-design/messageBox/index"
   }
 }

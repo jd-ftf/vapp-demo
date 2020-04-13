@@ -6,14 +6,14 @@ Page({
     productionType: '0',
     productionMsgType: 'a',
     productionTypeOption: [
-      { text: '全部商品', value: '0' },
-      { text: '新款商品', value: '1' },
-      { text: '活动商品', value: '2' }
+      { text: '全部订单', value: '0' },
+      { text: '已完成', value: '1' },
+      { text: '已取消', value: '2' }
     ],
     productionMsgTypeOption: [
       { text: '综合', value: 'a' },
-      { text: '销量', value: 'b' },
-      { text: '上架时间', value: 'c' }
+      { text: '下单时间', value: 'b' },
+      { text: '申请日期', value: 'c' }
     ],
     list: [],
     pageNo: 0,
