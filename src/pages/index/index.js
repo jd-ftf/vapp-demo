@@ -1,5 +1,3 @@
-const request = require('../../utils/request')
-
 Page({
   data: {
     swiper: [
@@ -43,13 +41,5 @@ Page({
         text: '类型8'
       }
     ]
-  },
-  onLoad () {
-    request({
-      url: '/api/index.action',
-      success ({ data }) {
-        console.log(data)
-      }
-    })
   }
 })
