@@ -57,6 +57,6 @@
     "postcss-url": "^8.0.0",
     "readable-stream": "^3.4.0",
     "rimraf": "^3.0.0",
-    "through2": "^4.0.1"
+    "through2": "^4.0.2"
   }
 }
